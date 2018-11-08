@@ -1,0 +1,12 @@
+{
+  "name": "babel-es6-study",
+  "scripts": {
+    "start": "npm run watch",
+    "babel": "node_modules/.bin/babel source -d dist",
+    "watch": "npm run babel -- -w"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.24.1",
+    "babel-preset-env": "^1.5.2"
+  }
+}
