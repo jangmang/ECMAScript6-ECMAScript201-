@@ -12,7 +12,7 @@
 
 ## LET
 
-ES5
+### ES5
 ```
 function foo(){
 	if(true){
@@ -28,7 +28,7 @@ foo();
 - 정상적으로 bar 이라는 문자열을 출력하는 모습을 볼 수 있다. 여기서 변수 a 는 foo 함수에서 전역으로 영향력을 같게 된다. 그렇기 때문에 if 문의 scope 안에서 선언된 변수도 밖에서 접근이 가능하다.
 
 
-ES6
+### ES6
 ```
 function foo(){
 	if(true){
@@ -45,7 +45,7 @@ foo();
 
 ## CONST
 
-ES6
+### ES6
 ```
 let foo = 1;
 foo = 2;
@@ -60,7 +60,7 @@ bar = 2;
 
 ## Arrow Function (화살표 함수)
 
-ES5
+### ES5
 ```
 var vm = function() {
 	console.log(“함수실행”);
@@ -69,7 +69,7 @@ var vm = function() {
 vm();
 ```
 
-ES6
+### ES6
 ```
 const vm = () => {
 	console.log(“화살표 함수실행”);
@@ -80,7 +80,7 @@ vm();
 
 ## Parameter (파라미터)
 
-ES5
+### ES5
 ```
 var vm = function(a, b) {
 	console.log(a, b);
@@ -91,7 +91,7 @@ vm(‘값1’);
 //값1, undefined
 ```
 
-ES6
+### ES6
 ```
 const vm = (a, b=‘값2’) => {
 	console.log(a, b);
