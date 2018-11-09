@@ -11,6 +11,7 @@
 - 개선된 문법으로 오류가 줄어들었다.
 - 해외 대다수 사이트에서 표준으로 자리잡았다.
 - Nodejs도 4버전부터는 ES6을 도입하였고, AngularJs, React, Vue.js등도 ES6에 맞춰 개편되었다.
+![title](https://github.com/jangmang/pub/blob/master/2.PNG "es6")
 
 ## LET
 
