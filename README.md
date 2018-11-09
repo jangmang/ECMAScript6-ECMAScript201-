@@ -8,11 +8,11 @@
 - 좀더 직관적이고 간결하다.
 - 개선된 문법으로 오류가 줄어들었다.
 - 해외 대다수 사이트에서 표준으로 자리잡았다.
-- Nodejs도 4버전부터는 ES6을 도입하였고, AngularJs, React, Vue.js등도 ES6에 맞춰 개편되었다.
+- Nodejs도 4버전부터는 ES6을 도입하였고, AngularJs, React, Vue.js등도 ES6에 맞춰 개편되었다.
 
 ## LET
 
-###ES5
+ES5
 ```
 function foo(){
 	if(true){
@@ -25,8 +25,10 @@ foo();
 
 // bar
 ```
+- 정상적으로 bar 이라는 문자열을 출력하는 모습을 볼 수 있다. 여기서 변수 a 는 foo 함수에서 전역으로 영향력을 같게 된다. 그렇기 때문에 if 문의 scope 안에서 선언된 변수도 밖에서 접근이 가능하다.
 
-###ES6
+
+ES6
 ```
 function foo(){
 	if(true){
@@ -39,5 +41,8 @@ foo();
 
 // error
 ```
+- 하지만 let 으로 선언한 변수는 if문의 scope 내에서만 유효하기 때문에 해당 scope 밖에서 a 에 접근할때, 오류가 발생한다.
+
+
 
 
