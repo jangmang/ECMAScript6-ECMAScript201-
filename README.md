@@ -2,7 +2,7 @@
 
 
 ## ECMAScript 6 란?
-- ECMA(European Computer Manufacturers Association 유럽 컴퓨터 제조업체 협회)Script란? ECMA 인터네셔널의 ECMA-262 기술 규격에 정의된 표준화된 스크립트 프로그래밍 언어이며, 그 버전명칭을 줄여서 국내에서 아직까지 널리 사용하고 있는 자바스크립트 버전이 ES5이며, 2015년 6월 개정된 버전이 바로 ES6 또는 ES2015라고도 부릅니다. 
+- ECMA(European Computer Manufacturers Association 유럽 컴퓨터 제조업체 협회)Script란? ECMA 인터네셔널의 ECMA-262 기술 규격에 정의된 표준화된 스크립트 프로그래밍 언어이며, 그 버전명칭을 줄여서 국내에서 아직까지 널리 사용하고 있는 자바스크립트 버전이 ES5이며, 2015년 6월 개정된 버전이 바로 ES6 또는 ES2015라고도 부릅니다. 
 
 ## ECMAScript 6 왜?
 - 좀더 직관적이고 간결하다.
@@ -43,6 +43,73 @@ foo();
 ```
 - 하지만 let 으로 선언한 변수는 if문의 scope 내에서만 유효하기 때문에 해당 scope 밖에서 a 에 접근할때, 오류가 발생한다.
 
+##CONST
 
+ES6
+```
+let foo = 1;
+foo = 2;
+console.log(foo);
+// 2 
+
+const bar = 1;
+bar = 2;
+// error
+```
+- let 으로 선언된 변수는 오류가 없지만, const 로 선언된 상수는 값을 변경할 수 없다는 오류가 발생한다.
+
+## Arrow Function (화살표 함수)
+
+ES5
+```
+var vm = function() {
+	console.log(“함수실행”);
+}
+
+vm();
+```
+
+ES6
+```
+const vm = () => {
+	console.log(“화살표 함수실행”);
+}
+
+vm();
+```
+
+## Parameter (파라미터)
+
+ES5
+```
+var vm = function(a, b) {
+	console.log(a, b);
+}
+
+vm(‘값1’);
+
+//값1, undefined
+```
+
+ES6
+```
+const vm = (a, b=‘값2’) => {
+	console.log(a, b);
+}
+
+vm(‘값1’);
+
+//값1, 값2
+```
+- ES6 이전에서는 파라미터의 값이 들어오지 않으면 무조건 undefined 가 됐지만, ES6 부터 그 기본값을 설정할 수 있다.
+
+```
+const vm = a => {
+	console.log(a);
+}
+
+vm(‘값1’);
+```
+- 파라미터를 1개만 받을때는 괄호를 생략할 수 있다.
 
 
