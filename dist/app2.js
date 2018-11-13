@@ -1,4 +1,5 @@
+"use strict";
 
-const fnc3 = () => {
+var fnc3 = function fnc3() {
   console.log(1);
 };

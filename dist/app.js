@@ -1,10 +1,15 @@
-let a = 0;
+"use strict";
 
-let b = 1;
-let c = 2;
+var a = 0;
 
-const fnc = () => {
-  console.log(1235);
+var b = 1;
+var c = 2;
+
+var fnc = function fnc() {
+  console.log(1235678);
+  alert("122");
 };
 
-let d = "abc";
+var d = "abcd111";
+
+fnc();
