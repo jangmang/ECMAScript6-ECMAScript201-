@@ -331,7 +331,7 @@ https://kangax.github.io/compat-table/es6/
 - 브라우저별 지원율이 상이하고, 특히 국내에서는 상대적으로 IE 브라우저의 점유율이 높기 때문에 아직까지는 그대로 사용 할 수가 없다.
 - Babel이라는 transpiler를 이용하여 es6에서 es5로 변환시켜 줄 수 있다.
 
-![title](https://github.com/jangmang/pub/blob/master/1.PNG "es6")
+![title](https://github.com/jangmang/pub/blob/master/3.PNG "babel")
 
 ## Babel 설치
 
