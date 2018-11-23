@@ -3,6 +3,7 @@
 
 ## ECMAScript 6 란?
 - ECMA(European Computer Manufacturers Association 유럽 컴퓨터 제조업체 협회)Script란? ECMA 인터네셔널의 ECMA-262 기술 규격에 정의된 표준화된 스크립트 프로그래밍 언어이며, 그 버전명칭을 줄여서 국내에서 아직까지 널리 사용하고 있는 자바스크립트 버전이 ES5이며, 2015년 6월 개정된 버전이 바로 ES6 또는 ES2015라고도 부릅니다. 
+
 ![title](https://github.com/jangmang/pub/blob/master/1.PNG "es6")
 
 
@@ -11,6 +12,7 @@
 - 개선된 문법으로 오류가 줄어들었다.
 - 해외 대다수 사이트에서 표준으로 자리잡았다.
 - Nodejs도 4버전부터는 ES6을 도입하였고, AngularJs, React, Vue.js등도 ES6에 맞춰 개편되었다.
+
 ![title](https://github.com/jangmang/pub/blob/master/2.PNG "es6")
 
 ## LET
@@ -328,6 +330,8 @@ https://kangax.github.io/compat-table/es6/
 - Internet Explorer를 제외하고는 대체로 커버가 되고 있다.
 - 브라우저별 지원율이 상이하고, 특히 국내에서는 상대적으로 IE 브라우저의 점유율이 높기 때문에 아직까지는 그대로 사용 할 수가 없다.
 - Babel이라는 transpiler를 이용하여 es6에서 es5로 변환시켜 줄 수 있다.
+
+![title](https://github.com/jangmang/pub/blob/master/1.PNG "es6")
 
 ## Babel 설치
 
